@@ -1,0 +1,10 @@
+html, body {
+    background-color: #75eaff;
+    font-family: sans-serif;
+}
+
+#intro, main {
+    margin: auto;
+    width: 20%;
+    padding: 5px;
+}
