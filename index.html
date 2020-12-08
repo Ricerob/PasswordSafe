@@ -3,24 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PasswordSafe</title>
-    <link rel="stylesheet" href="style.css">
+    <title>RandomColorGenerator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
 </head>
-<body>
-    <div id="intro">
-        <h2 id="brand">PasswordSafe</h2>
-        <br>
-        <h1>
-            Is your password strong? Check here! <br>
-        </h1>
-    </div>
-    <main>
-        <div id="main-function">
-            <h4>Enter password: <input type="text" id="pass"/> <button id="check-button" onclick="passData()">Check</button><br></h4>
-            <h4>Click for a strong password: <button id="gen-button">Generate</button><br></h4>
-            <h5 id="appear">Your password is: <h5 id="strong-text"></h5>
-        </div>
-    </main>
-    <script src="scripts.js"></script>
+<body id="main">
+    <h3>Color hex value: </h3>
+    <div id="color_displayer"></div>
+    <footer>
+        <button onClick="window.location.reload();">New Color</button> <!-- Simply refreshes the page, activating the randomize() function -->
+        <a href="https://github.com/Ricerob"><i class="im im-github"></i></a>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
